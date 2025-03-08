@@ -35,8 +35,8 @@ def create_total_casual_df(day_df):
 
 
 # Membaca data dari file csv
-days_df = pd.read_csv("day_upgrade.csv")
-hours_df = pd.read_csv("hour_upgrade.csv")
+days_df = pd.read_csv("dashboard/day_upgrade.csv")
+hours_df = pd.read_csv("dashboard/hour_upgrade.csv")
 
 
 # Konversi kolom tanggal ke format datetime
